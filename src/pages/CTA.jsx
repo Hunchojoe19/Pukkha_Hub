@@ -15,7 +15,7 @@ const CTA = () => {
     <section className="bg-CtaBackground w-full">
       <div className="container mx-auto flex flex-col justify-center items-center">
         <div className="relative">
-          <div className="sm:hidden md:flex absolute top-4 left-[-46.3em] flex justify-start items-end gap-x-8">
+          <div className="sm:hidden md:flex absolute top-4 lg:left-[-46.3em] flex justify-start items-end gap-x-8">
             <div
               className="bg-blue-500 h-[12px] w-[12px] rounded-full"
               id="circle"
@@ -42,7 +42,7 @@ const CTA = () => {
           <img
             src={speaker}
             alt="speech reader"
-            className="pointer"
+            className="cursor-pointer"
             onClick={() =>
               speak({
                 text: `${puka} is an ${adjective} that means ${one} it also means ${two}, lastly it means ${three}`,
