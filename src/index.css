@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.hamburger {
+  width: 24px;
+  height: 24px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background-color: black;
+  transform: rotate(0);
+  transition: all 0.5s;
+  background-color: #fff;
+}
+.hamburger-middle {
+  transform: translateY(7px);
+}
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+.pukka {
+  color: #fff;
+  font-family: "Black Tulip ITC";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.48px;
+}
+.innovation {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #d8d7d7;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: light;
+  line-height: 100%;
+  letter-spacing: 2.3px;
+}
+#optimizing {
+  text-align: center;
+  font-family: "Eudoxus Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 85px; /* 170% */
+  letter-spacing: -1px;
+}
+#idea {
+  font-family: "Eudoxus Sans";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px;
+  letter-spacing: -1.4px;
+}
+.underline {
+  position: absolute;
+  top: 4rem;
+  left: 23rem;
+}
+@media screen and (max-width: 767px) {
+  #optimizing {
+    text-align: center;
+    font-family: "Eudoxus Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 85px; /* 170% */
+    letter-spacing: -1px;
+    margin-bottom: -2rem;
+  }
+  #idea {
+    font-family: "Eudoxus Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: -1.4px;
+    margin-left: 0.3rem;
+  }
+  .underline {
+    position: absolute;
+    top: 3.5rem;
+    left: 11.5rem;
+  }
+}
+@media screen and (min-width: 976px) {
+  #optimizing {
+    text-align: center;
+    font-family: "Eudoxus Sans";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 85px; /* 170% */
+    letter-spacing: -1px;
+  }
+  #idea {
+    font-family: "Eudoxus Sans";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: -1.4px;
+  }
+  .underline {
+    position: absolute;
+    top: 4.5rem;
+    left: 29.9rem;
+  }
+}
+
+#global {
+  font-family: "Eudoxus Sans";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px;
+  letter-spacing: -1.5px;
+}
+#innovate {
+  color: #f60;
+  font-family: "Eudoxus Sans";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px;
+  letter-spacing: -1.5px;
+  margin-left: 0.3rem;
+}
+
+@media screen and (max-width: 767px) {
+  #global {
+    font-family: "Eudoxus Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: -1.5px;
+  }
+  #innovate {
+    color: #f60;
+    font-family: "Eudoxus Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: -1.5px;
+  }
+}
+@media screen and (min-width: 976px) {
+  #global {
+    font-family: "Eudoxus Sans";
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: -1.5px;
+  }
+  #innovate {
+    color: #f60;
+    font-family: "Eudoxus Sans";
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: -1.5px;
+  }
+}
+#paragraph {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-family: "Eudoxus Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.5%;
+  letter-spacing: -0.36px;
+}
+
+@media screen and (min-width: 767px) {
+  #paragraph {
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-family: "Eudoxus Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.5%;
+    letter-spacing: -0.36px;
+  }
+}
+#circle {
+  background-color: rgba(43, 43, 43, 0.7);
+}
+#puk {
+  text-align: center;
+  font-family: "Clash Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 18px */
+  letter-spacing: -0.36px;
+}
+
+#span_bracket {
+  color: #dc7c00;
+  font-family: "Clash Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.36px;
+  margin-left: 0.5rem;
+}
+.p-adjective {
+  color: #0cf;
+  font-family: "Gilroy-SemiBoldItalic";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.36px;
+}
+
+@media screen and (min-width: 767px) {
+  #puk {
+    font-size: 22px;
+  }
+  .p-adjective {
+    font-size: 22px;
+  }
+}
+.one {
+  color: #f60;
+  font-family: "Clash Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  text-align: start;
+  margin-top: 1.2rem;
+}
+.one_span {
+  color: white;
+  font-family: "Clash Display";
+}
+.two {
+  color: #f60;
+  font-family: "Clash Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  text-align: start;
+  margin-top: 2rem;
+}
+.three {
+  color: #f60;
+  font-family: Clash Display;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  text-align: start;
+  margin-top: 1.2rem;
+}
+.p_origin {
+  color: #fff;
+  font-family: "Clash Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+@media screen and (min-width: 767px) {
+  .one_span {
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+  .one {
+    font-size: 22px;
+    line-height: 2rem;
+  }
+  .two {
+    font-size: 22px;
+    line-height: 2rem;
+  }
+  .three {
+    font-size: 22px;
+    line-height: 2rem;
+  }
+}
+
+#rocket_background {
+  border-radius: 8px;
+  background: #716d6d;
+}
+.empty {
+  margin-left: 0.2rem;
+  width: 95px;
+  margin-top: 0.1rem;
+  height: 3px;
+  background: #716d6d;
+}
