@@ -1,6 +1,6 @@
 import React from "react";
 import Underline from "./../assets/Underline.svg";
-import dobera from "./../assets/Dobera.png";
+import dobera from "./../assets/Dobera-img.png";
 
 const Hero = () => {
   return (
@@ -25,7 +25,7 @@ const Hero = () => {
             We help create brands, products & experiences that engineer success
             using a Human-Centered Design approach.
           </p>
-          <p id="paragraph" className="sm:hidden md:block">
+          <p id="paragraph" className="sm:hidden md:block z-50">
             We help create brands, products & experiences that <br />
             engineer success using a Human-Centered Design approach.
           </p>
@@ -38,7 +38,7 @@ const Hero = () => {
       </div>
       <div className="sm:hidden md:flex md:justify-between md:items-center md:h-42 md:w-full">
         <div className="container mx-auto flex">
-          <div className="w-[25%] h-full flex flex-col gap-y-5 mt-[12rem] ml-[5rem]">
+          <div className="w-[25%] h-full flex flex-col gap-y-5 mt-[16.8rem] ml-[5rem]">
             <div className="flex justify-start items-end gap-x-8">
               <div
                 className="bg-blue-500 h-[12px] w-[12px] rounded-full"
@@ -98,7 +98,7 @@ const Hero = () => {
             <img
               src={dobera}
               alt="dobera"
-              className="bg-transparent mt-[-6.5rem] flex justify-center items-center ml-[-8rem]"
+              className="mt-[-4.5rem] w-1/2 h-1/2 flex justify-center items-center ml-[-8rem]"
             />
           </div>
         </div>

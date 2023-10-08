@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./../assets/Pukha.png";
+import logo from "./../assets/Pukha-Logo.png";
 
 const NavBar = () => {
   const [open, setOpen] = React.useState("");
@@ -9,7 +9,7 @@ const NavBar = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <div className="pt-2 w-32 h-[100%]">
-            <img src={logo} alt="logo" className="border-none" />
+            <img src={logo} alt="logo" className="border-none w-1/2 h-full" />
             <p className="pukka mt-2">Pukha Hub</p>
             <p className="innovation">Innovations</p>
           </div>
