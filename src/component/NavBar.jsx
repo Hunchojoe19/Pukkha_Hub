@@ -5,46 +5,53 @@ const NavBar = () => {
   const [open, setOpen] = React.useState("");
 
   return (
-    <nav className="relative w-full p-4 bg-navbarBcg">
-      <div className="container mx-auto">
+    <nav className="relative w-full p-4 bg-black">
+      <div className="lg:px-8">
         <div className="flex items-center justify-between">
           <div className="pt-2 w-32 h-[100%]">
-            <img src={logo} alt="logo" className="border-none w-1/2 h-full" />
+            <img
+              src={logo}
+              alt="logo"
+              className="border-none w-1/2 h-full lg:w-14 lg:ml-2"
+            />
             <p className="pukka mt-2">Pukha Hub</p>
             <p className="innovation">Innovations</p>
           </div>
-          <div className="hidden md:flex space-x-10">
+          <div className="hidden md:flex absolute right-[18rem] space-x-10">
             <a
               href=""
-              className="hover:text-darkGrayishBlue text-white font-clash lg:text-xl"
+              className="hover:text-darkGrayishBlue text-white font-clash lg:text-[18px]"
             >
               About
             </a>
             <a
               href=""
-              className="hover:text-darkGrayishBlue text-white font-clash lg:text-xl"
+              className="hover:text-darkGrayishBlue text-white font-clash lg:text-[18px]"
             >
               Our Approach
             </a>
             <a
               href=""
-              className="hover:text-darkGrayishBlue text-white font-clash lg:text-xl"
+              className="hover:text-darkGrayishBlue text-white font-clash lg:text-[18px]"
             >
               Our Portfolio
             </a>
             <a
               href=""
-              className="hover:text-darkGrayishBlue text-white font-clash lg:text-xl"
+              className="hover:text-darkGrayishBlue text-white font-clash lg:text-[18px]"
             >
               Careers
             </a>
           </div>
-          <a
-            href=""
-            className="hidden md:block p-3 px-8 pt-2 font-clash font-medium text-black bg-buttonBackground rounded-full baseline md:h-12 md:flex md:items-center md:justify-center"
-          >
-            Get in Touch
-          </a>
+          <div className="flex justify-center items-center">
+            <a
+              href=""
+              className="hidden md:block lg:h-[64px] lg:w-[196px] flex justify-center items-center p-3 px-8 pt-2 lg:text-[18px] font-clash font-medium text-black bg-buttonBackground rounded-full baseline md:h-12 md:flex md:items-center md:justify-center"
+            >
+              Get in Touch
+            </a>
+          </div>
+
           <button
             id="menu-btn"
             className={`block hamburger md:hidden focus:outline-none ${
