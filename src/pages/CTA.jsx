@@ -53,7 +53,7 @@ const CTA = () => {
         <div className="mt-6" id="adjective">
           <p className="p-adjective">Adjective</p>
         </div>
-        <div className="mt-8 flex flex-col justify-center items-center">
+        <div className="mt-4 flex flex-col justify-center items-center">
           <div className="flex gap-x-2 justify-center items-center">
             <p className="one_span">1.</p>
             <p className="one">
@@ -68,15 +68,15 @@ const CTA = () => {
               acceptable or proper.
             </p>
           </div>
-          <div className="sm:hidden md:flex gap-x-2 justify-center items-center mt-1 ml-2">
+          <div className="hidden md:flex gap-x-2 justify-center items-center ml-2">
             <p className="one_span">2.</p>
             <p className="two">
               Genuine or authentic; hence of behaviour: <br /> correct, socially
               acceptable or proper.
             </p>
           </div>
-          <div className="flex gap-x-2 justify-center items-center mt-1 ml-4">
-            <p className="one_span">3.</p>
+          <div className="flex gap-x-2 justify-center items-center ml-4">
+            <p className="one_span mt-4">3.</p>
             <p className="three">
               <span className="one_span">(Britain, slang)</span> Excellent,
               fantastic, great.
