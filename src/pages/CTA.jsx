@@ -14,7 +14,7 @@ const CTA = () => {
   return (
     <section className="relative bg-CtaBackground w-full">
       <div className="container mx-auto flex flex-col justify-center items-center">
-        <div className="absolute top-0 left-0 ml-[5rem] px-8">
+        <div className="absolute top-0 left-4 px-8">
           <div className="sm:hidden lg:flex lg:mt-[1rem] flex justify-start items-start gap-x-8">
             <div
               className="bg-blue-500 h-[12px] w-[12px] rounded-full"

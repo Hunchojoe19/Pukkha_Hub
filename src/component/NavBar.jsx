@@ -12,7 +12,7 @@ const NavBar = () => {
             <img
               src={logo}
               alt="logo"
-              className="border-none w-1/2 h-full lg:w-14 lg:ml-2"
+              className="border-none w-1/2 cursor-pointer h-full lg:w-14 lg:ml-2"
             />
             <p className="pukka mt-2">Pukha Hub</p>
             <p className="innovation">Innovations</p>

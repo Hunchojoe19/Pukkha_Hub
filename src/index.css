@@ -132,8 +132,15 @@
   .underline {
     position: absolute;
     top: 4.5rem;
-    left: 29.9rem;
+    left: 32rem;
   }
+  .for {
+    font-size: 40px;
+  }
+}
+
+.image_overlay {
+  z-index: 0;
 }
 
 #global {
@@ -194,7 +201,7 @@
   }
 }
 #paragraph {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(175, 171, 171, 0.8);
   text-align: center;
   font-family: "Eudoxus Sans";
   font-size: 18px;
