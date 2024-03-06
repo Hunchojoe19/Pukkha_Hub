@@ -94,7 +94,7 @@ const Hero = () => {
               </p>
             </div>
             <div className="hidden md:flex justify-center items-center h-[386px] w-[386px] image_overlay -mt-16">
-              <img src={dobera} />
+              <img src={dobera} alt="dobera" />
             </div>
           </div>
         </div>

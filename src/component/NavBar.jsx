@@ -14,7 +14,9 @@ const NavBar = () => {
               alt="logo"
               className="border-none w-1/2 cursor-pointer h-full lg:w-14 lg:ml-2"
             />
-            <p className="pukka mt-2">Pukha Hub</p>
+            <p className="mt-2" id="pukka">
+              Pukha Hub
+            </p>
             <p className="innovation">Innovations</p>
           </div>
           <div className="hidden md:flex absolute right-[18rem] space-x-10">
