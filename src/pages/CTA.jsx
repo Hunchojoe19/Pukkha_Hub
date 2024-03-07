@@ -1,5 +1,6 @@
 import React from "react";
 import speaker from "../assets/Speaker.png";
+import fist from "../assets/ezgif.png";
 import { useSpeechSynthesis } from "react-speech-kit";
 
 const puka = `"Pukha  [puh · kuh]
@@ -34,6 +35,7 @@ const CTA = () => {
             ></div>
           </div>
         </div>
+
         <div className="mt-16 flex justify-center items-center gap-6">
           <p className="text-white" id="puk">
             Pukha <span id="span_bracket"> [puh · kuh]</span> -{" "}

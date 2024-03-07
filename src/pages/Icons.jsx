@@ -27,8 +27,8 @@ const Icons = () => {
   return (
     <section className="bg-iconBcg flex flex-col w-full">
       <div className="container mx-auto">
-        <div className="mt-12 flex flex-col justify-center items-start">
-          <p className="text-white font-bold text-3xl font-clash md:ml-[13rem] md:mt-8 lg:ml-[2rem] lg:mt-[4rem]">
+        <div className="mt-12 flex flex-col justify-center items-center">
+          <p className="text-white font-[600] text-[50px] font-clash md:ml-[13rem] md:mt-8 lg:ml-[2rem] lg:mt-[4rem]">
             Innovation That Works
           </p>
         </div>
