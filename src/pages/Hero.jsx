@@ -84,7 +84,7 @@ const Hero = () => {
               <span id="innovate">Innovation</span>
             </h2>
             <div className="z-20">
-              <p id="paragraph" className="md:hidden">
+              <p id="paragraph" className="md:hidden mb-8">
                 We help create brands, products & experiences that gains
                 competitive advantage and engineer success.
               </p>
