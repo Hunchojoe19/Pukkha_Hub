@@ -19,7 +19,6 @@ function App() {
       <CaseStudy />
       <Client />
       <Testimonials />
-      <Client />
       <Explore />
       <Footer />
     </>
